@@ -12,8 +12,13 @@ class MenuType extends AbstractType
     {
         $builder
             ->add('title')
-            ->add('contents')
-            ->add('slug')
+            ->add('contents', 'textarea', array(
+                    'attr' => array(
+                        'class' => 'tinymce',
+                        'data-theme' => 'advanced',
+                    )
+                ))
+            //->add('slug')
         ;
     }
 
