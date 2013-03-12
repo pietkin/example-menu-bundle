@@ -1,0 +1,20 @@
+{
+    "name":         "Pietkin/example-menu-bundle",
+    "description":  "This bundle is only example",
+    "keywords":     ["menu"],
+    "type":         "symfony-bundle",
+    "license":      "MIT",
+    "authors":      [
+        {
+            "name":     "Piotr Nowak",
+            "email":    "zaratusztra@gmail.com"
+        }
+    ],
+    "require":      {
+        "php": ">=5.3.2"
+    },
+    "autoload":     {
+        "psr-0": { "Pietkin\\ExampleMenuBundle": "" }
+    },
+    "target-dir": "Pietkin/ExampleMenuBundle"
+}
